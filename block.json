@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/mipl-wc-checkout-fields",
+	"version": "1.0.0",
+	"title": "MIPL WC Checkout Fields",
+	"category": "woocommerce",
+	"icon": "block-default",
+	"textdomain": "mipl-wc-checkout-fields",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

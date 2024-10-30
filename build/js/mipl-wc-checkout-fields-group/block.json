@@ -1,0 +1,27 @@
+{
+  "apiVersion": 2,
+  "name": "woocommerce/mipl-wc-checkout-fields-group",
+  "version": "2.0.0",
+  "title": "MIPL Checkout Fields Group",
+  "category": "woocommerce",
+  "description": "'MIPL WC Checkout Fields' block to show the fields group on Checkout Page",
+  "supports": {
+    "html": false,
+    "align": false,
+    "multiple": true,
+    "reusable": true
+  },
+  "attributes": {
+    "showStepNumberTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "fieldsGroupID": {
+      "type": "string"
+    }
+  },
+  "parent": [
+    "woocommerce/checkout-fields-block"
+  ],
+  "textdomain": "mipl-wc-checkout-fields"
+}
